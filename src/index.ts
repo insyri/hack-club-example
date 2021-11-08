@@ -51,7 +51,7 @@ commandClient.add({
 });
 
 // Now that we have all our stuff set up and initialized, we can start running the client
-// We will spawn the client in async mode so we can await the client to run
+// We will spawn the client in async context so we can await the client to run
 (async () => {
   await client.run();
   // We wait for the client to finish the entire ready-up run
